@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+   <Ad id="preroll0-0">
+      <InLine>
+         <AdSystem>Behrox</AdSystem>
+         <AdTitle>Title</AdTitle>
+         <Description>Description</Description>
+         <Impression id="impression-0">https://testapi.io/api/Behrox/impression-event</Impression>
+         <Creatives>
+            <Creative adID="preroll0-0">
+               <Linear skipoffset="00:00:10">
+                  <Duration>00:00:45</Duration>
+                  <TrackingEvents>
+                     <Tracking event="skip">https://testapi.io/api/Behrox/skip-event</Tracking>
+                     <Tracking event="midpoint" />
+                     <Tracking event="thirdQuartile" />
+                     <Tracking event="mute" />
+                     <Tracking event="unmute" />
+                     <Tracking event="pause" />
+                     <Tracking event="resume" />
+                     <Tracking event="fullscreen" />
+                     <Tracking event="close" />
+                     <Tracking event="acceptInvitation" />
+                     <Tracking event="start">https://testapi.io/api/Behrox/start-event</Tracking>
+                     <Tracking event="complete">https://testapi.io/api/Behrox/complete-event</Tracking>
+                  </TrackingEvents>
+                  <VideoClicks>
+                     <ClickThrough>https://www.google.com/</ClickThrough>
+                     <ClickTracking id="tracking-0">https://testapi.io/api/Behrox/video-click-event</ClickTracking>
+                  </VideoClicks>
+                  <MediaFiles>
+                     <MediaFile delivery="progressive" type="video/mp4" bitrate="426722" width="640" height="360">https://redirector.gvt1.com/videoplayback/id/d2c0a1b738ada656/itag/18/source/dclk_video_ads/requiressl/yes/acao/yes/mime/video%2Fmp4/ctier/L/ip/0.0.0.0/ipbits/0/expire/1656621551/sparams/ip,ipbits,expire,id,itag,source,requiressl,acao,mime,ctier/signature/873435F433161DF341E5CD02B4FEBA2BD2D5EBC2.3068338B5E6F846771FAF7F0CA671BCB92E1B282/key/ck2/file/file.mp4</MediaFile>
+                  </MediaFiles>
+               </Linear>
+            </Creative>
+            <Creative adID="preroll0-0">
+               <CompanionAds>
+                  <Companion width="300" height="250">
+                     <StaticResource creativeType="image/png">https://pagead2.googlesyndication.com/simgad/4446644594546952943</StaticResource>
+                     <CompanionClickThrough>https://www.google.com/</CompanionClickThrough>
+                     <CompanionClickTracking>https://testapi.io/api/Behrox/companion-ads-click-event</CompanionClickTracking>
+                  </Companion>
+               </CompanionAds>
+            </Creative>
+         </Creatives>
+      </InLine>
+   </Ad>
+</VAST>
